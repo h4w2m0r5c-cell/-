@@ -1,6 +1,5 @@
 #import <Foundation/Foundation.h>
-#import <UIKit/UIKit.h>
-#import <CommonCrypto/CommonDigest.h>
+#import <Foundation/Foundation.h>
 #import <Security/Security.h>
 
 // ========== 配置区 ==========
