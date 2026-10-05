@@ -12,7 +12,7 @@ jobs:
       - name: Build dylib
         run: |
           clang -dynamiclib -arch arm64 -target arm64-apple-ios15.0 \
-          -framework UIKit -framework Foundation -framework Security \
+          -framework Foundation -framework Security \
           AuthLib.m -o AuthLib.dylib
 
       - name: Upload artifact
